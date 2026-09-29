@@ -1110,6 +1110,12 @@ kbd {
 /*=== MOBILE */
 /*===========*/
 
+.nav_menu .stick .mark-read-menu .dropdown-toggle.btn {
+	border-left: 1px solid var(--border-color-middle);
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
 @media (max-width: 840px) {
 	.form-group .group-name {
 		padding-bottom: 0;
@@ -1154,13 +1160,7 @@ kbd {
 		min-height: 0;
 	}
 
-	.nav_menu .stick .mark-read-menu .dropdown-toggle.btn {
-		border-left: 1px solid var(--border-color-middle);
-		border-top-left-radius: 3px;
-		border-bottom-left-radius: 3px;
-	}
-
-	.nav_menu .stick .mark-read-menu .dropdown-toggle.btn:hover {
+		.nav_menu .stick .mark-read-menu .dropdown-toggle.btn:hover {
 		border-left-color: var(--contrast-border-color-hover);
 	}
 
